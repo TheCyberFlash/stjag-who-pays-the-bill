@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import '../index.css';
+import { useNames } from '../context/NamesContext';
 
 const NameList = () => {
-    const [names, setNames] = useState([]);
-    const [newName, setNewName] = useState('');
 
-    const addName = (event) => {
+    const { names, addName } = useNames();   
+    const [newName, setNewName] = useState('');
+    
+    const handleAddName = (event) => {
         event.preventDefault();
-        setNames(names.concat(newName));
+        addName(newName);
         setNewName('');
     };
 
@@ -22,7 +24,7 @@ const NameList = () => {
                         value={newName} 
                         onChange={(event) => setNewName(event.target.value)} />
                 </label>
-                <button type="submit" onClick={addName}>Add</button>
+                <button type="submit" onClick={handleAddName}>Add</button>
             </form>
 
             <ul>
