@@ -23,7 +23,7 @@ h1 {
   color: #777;
 }
 
-.name-list-container {
+.name-list-container, .loser-container {
   text-align: center;
 }
 
