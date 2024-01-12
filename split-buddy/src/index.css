@@ -22,3 +22,13 @@ h1 {
   padding: 0;
   color: #777;
 }
+
+.name-list-container {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
