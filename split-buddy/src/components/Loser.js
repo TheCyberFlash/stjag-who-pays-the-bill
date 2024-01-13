@@ -20,8 +20,18 @@ const Loser = ({ names }) => {
         <div className="loser-container">
             {names.length >= 2 && (
                 <>
-                    {loading && <p>Calculating...</p>}
+                    {/* {loading && <p>Calculating...</p>} */}
 
+                    {loading && (
+                        <div className="spinner-container">
+                            <div className="spinner">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>)}
+                        
                     {loser && !loading && (
                         <div className="loser-result">
                             <p>
