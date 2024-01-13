@@ -12,9 +12,13 @@ const Loser = ({ names }) => {
 
     return (
         <div className="loser-container">
-            <h2>And the loser is...</h2>
-            <button type="submit" onClick={selectLoser}>Select</button>
-            {loser && <p>{loser} pays the bill!</p>}
+            {names.length >= 2 && (
+                <>
+                    <h2>And the loser is...</h2>
+                    <button type="submit" onClick={selectLoser}>Select</button>
+                    {loser && <p>{loser} pays the bill!</p>}
+                </>
+            )}
         </div>
     )
 };
