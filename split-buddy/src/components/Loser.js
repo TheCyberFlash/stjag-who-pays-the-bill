@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../index.css";
 
 const Loser = ({ names }) => {
     const [loading, setLoading] = useState(false);
