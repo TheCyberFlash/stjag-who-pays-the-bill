@@ -21,10 +21,12 @@ function App() {
           <Loser names={names} />
         </div>
 
-        <div className="column">
+        
+      </div>
+
+      <div className="column">
           <NameInput />
         </div>
-      </div>
     </div>
   );
 }

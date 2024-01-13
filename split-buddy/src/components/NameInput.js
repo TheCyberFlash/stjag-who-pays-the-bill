@@ -14,15 +14,12 @@ const NameInput = () => {
     };
 
     return (
-        <div className="name-list-container">
+        <div className="name-input-container">
             <form onSubmit={handleAddName}>
-                <label>
-                    Add Name:
-                    <input 
-                        type="text" 
-                        value={newName} 
-                        onChange={(event) => setNewName(event.target.value)} />
-                </label>
+                <input
+                type="text"
+                value={newName}
+                onChange={(event) => setNewName(event.target.value)} />
                 <button type="submit" onClick={handleAddName}>Add</button>
             </form>
         </div>

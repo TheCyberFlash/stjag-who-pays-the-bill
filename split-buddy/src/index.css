@@ -11,11 +11,13 @@ body {
 
 .container {
   text-align: center;
-  padding: 250px;
+  padding: 50px;
   background-color: #f0f8ff;
   border-radius: 24px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   position: relative;
+  min-height: 400px;
+  min-width: 300px;
 }
 
 .main-title {
@@ -29,10 +31,34 @@ body {
   transform: translate(-50%);
 }
 
-form {
-  margin-top: 20px;
+.main-content {
+  margin-top: 25px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column {
+  flex:1;
+  padding: 20px;
+}
+
+.name-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 61%;
 }
 
 button {
@@ -59,7 +85,8 @@ ul {
 
 }
 
-.name-list-container, .loser-container {
+.name-list-container, .loser-container,
+.name-input-container{
   text-align: center;
 }
 
