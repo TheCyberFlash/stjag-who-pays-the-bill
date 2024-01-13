@@ -6,11 +6,14 @@ export const NamesProvider = ({ children }) => {
     const [names, setNames] = useState([]);
 
     const addName = (newName) => {
-        setNames([...names, newName]);
 
-        const nameList = document.getElementById("name-list");
-        if(nameList) {
-            nameList.scrollIntoView({ behavior: "smooth" });
+        if (newName.trim() !== "") {
+            setNames([...names, newName]);
+
+            const nameList = document.getElementById("name-list");
+            if(nameList) {
+                nameList.scrollIntoView({ behavior: "smooth" });
+            }    
         }
     };
 
