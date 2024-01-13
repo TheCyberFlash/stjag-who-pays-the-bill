@@ -7,6 +7,11 @@ export const NamesProvider = ({ children }) => {
 
     const addName = (newName) => {
         setNames([...names, newName]);
+
+        const nameList = document.getElementById("name-list");
+        if(nameList) {
+            nameList.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     const resetNames = () => {

@@ -5,7 +5,7 @@ const NameList = () => {
     const { names } = useNames();    
 
     return (
-        <div className="name-list-container">
+        <div id="name-list" className="name-list-container">
             <ul className="name-list">
                 {names.map((name, index) => <li key={index}>{name}</li>)}
             </ul>
