@@ -16,16 +16,15 @@ function App() {
         <div className="column">
           <NameList />
         </div>
-
-        <div className="column">
-          <Loser names={names} />
-        </div>
-
         
       </div>
 
       <div className="column">
           <NameInput />
+        </div>
+
+        <div className="column">
+          <Loser names={names} />
         </div>
     </div>
   );
