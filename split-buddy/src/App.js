@@ -10,6 +10,8 @@ function App() {
   return (
     <div className="container">
       {/* <h1>..Hello World..</h1> */}
+      <h1 className="main-title">Who pays the bill?</h1>
+
       <NameList />
       <Loser names={names} />
     </div>

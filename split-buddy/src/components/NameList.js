@@ -15,7 +15,6 @@ const NameList = () => {
 
     return (
         <div className="name-list-container">
-            <h2>Who pays the bill?</h2>
             <form>
                 <label>
                     Add Name:

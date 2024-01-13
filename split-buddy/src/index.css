@@ -11,24 +11,78 @@ body {
 
 .container {
   text-align: center;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 250px;
+  background-color: #f0f8ff;
+  border-radius: 24px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
-h1 {
+.main-title {
   margin: 0;
+  margin-top: 15px !important;
   padding: 0;
-  color: #777;
-}
-
-.name-list-container, .loser-container {
-  text-align: center;
+  color:cornflowerblue;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 form {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  background-color: #add8e6;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #87ceeb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.name-list-container, .loser-container {
+  text-align: center;
+}
+
+.loser-container button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.loser-container button:hover {
+  background-color: #ff6347;
+}
+
+.loser-container p {
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
 }
