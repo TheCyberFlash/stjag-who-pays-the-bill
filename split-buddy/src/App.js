@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import NameList from './components/NameList';
+import NameInput from './components/NameInput';
 import Loser from './components/Loser';
 import { useNames } from './context/NamesContext';
 
@@ -9,11 +10,21 @@ function App() {
 
   return (
     <div className="container">
-      {/* <h1>..Hello World..</h1> */}
       <h1 className="main-title">Who pays the bill?</h1>
 
-      <NameList />
-      <Loser names={names} />
+      <div className="main-content">
+        <div className="column">
+          <NameList />
+        </div>
+
+        <div className="column">
+          <Loser names={names} />
+        </div>
+
+        <div className="column">
+          <NameInput />
+        </div>
+      </div>
     </div>
   );
 }
