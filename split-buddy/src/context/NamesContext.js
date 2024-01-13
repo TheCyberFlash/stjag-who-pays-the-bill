@@ -9,8 +9,12 @@ export const NamesProvider = ({ children }) => {
         setNames([...names, newName]);
     };
 
+    const resetNames = () => {
+        setNames([]);
+    };
+
     return (
-        <NamesContext.Provider value={{ names, addName }}>
+        <NamesContext.Provider value={{ names, addName, resetNames }}>
             {children}
         </NamesContext.Provider>
     );
