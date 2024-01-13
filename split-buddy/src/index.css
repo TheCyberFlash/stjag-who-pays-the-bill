@@ -155,3 +155,33 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  body{
+    margin: 0;
+    padding: 5px;
+    align-items: flex-start !important;
+  }
+
+  .container {    
+    min-height: 50vh;
+    padding: 20px;
+    margin: 0 5px;
+    min-width: 10px !important;
+    width: 85vw !important;
+  }
+
+  .main-title {
+    font-size: 20px;
+    margin-top: 10px !important;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  .loser-container button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
