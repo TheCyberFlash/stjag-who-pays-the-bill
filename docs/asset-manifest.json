@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stjag-who-pays-the-bill/static/css/main.09eac4af.css",
-    "main.js": "/stjag-who-pays-the-bill/static/js/main.eb5c7c27.js",
+    "main.css": "/stjag-who-pays-the-bill/static/css/main.4e617ed1.css",
+    "main.js": "/stjag-who-pays-the-bill/static/js/main.23c92c9c.js",
     "index.html": "/stjag-who-pays-the-bill/index.html",
-    "main.09eac4af.css.map": "/stjag-who-pays-the-bill/static/css/main.09eac4af.css.map",
-    "main.eb5c7c27.js.map": "/stjag-who-pays-the-bill/static/js/main.eb5c7c27.js.map"
+    "main.4e617ed1.css.map": "/stjag-who-pays-the-bill/static/css/main.4e617ed1.css.map",
+    "main.23c92c9c.js.map": "/stjag-who-pays-the-bill/static/js/main.23c92c9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09eac4af.css",
-    "static/js/main.eb5c7c27.js"
+    "static/css/main.4e617ed1.css",
+    "static/js/main.23c92c9c.js"
   ]
 }
