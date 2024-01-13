@@ -15,7 +15,7 @@ const NameList = () => {
 
     return (
         <div className="name-list-container">
-            <form>
+            <form onSubmit={handleAddName}>
                 <label>
                     Add Name:
                     <input 
