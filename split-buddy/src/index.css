@@ -102,6 +102,7 @@ button:hover {
 .name-list-container, .loser-container,
 .name-input-container{
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .loser-container button {
