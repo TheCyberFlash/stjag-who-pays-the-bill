@@ -43,6 +43,19 @@ body {
   padding: 20px;
 }
 
+.name-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.name-list li {
+  font-size: 18px;
+  color:#87b2eb;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .name-input-container {
   display: flex;
   flex-direction: row;
@@ -78,12 +91,6 @@ button {
 
 button:hover {
   background-color: #87ceeb;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-
 }
 
 .name-list-container, .loser-container,

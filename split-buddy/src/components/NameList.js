@@ -7,7 +7,7 @@ const NameList = () => {
 
     return (
         <div className="name-list-container">
-            <ul>
+            <ul className="name-list">
                 {names.map((name, index) => <li key={index}>{name}</li>)}
             </ul>
         </div>
