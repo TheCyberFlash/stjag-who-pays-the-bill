@@ -1,1 +1,1 @@
-# [Github Page](thecyberflash.github.io/stjag-who-pays-the-bill)
+# [Github Page](https://thecyberflash.github.io/stjag-who-pays-the-bill/)
